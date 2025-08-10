@@ -1,0 +1,11 @@
+python genai-fundamentals/test_environment.py
+python genai-fundamentals/vector_retriever.py
+
+python -i genai-fundamentals/vector_retriever.py
+exit()
+quit()
+
+python -i genai-fundamentals/vector_rag.py
+python -i genai-fundamentals/vector_cypher_rag.py
+python -i genai-fundamentals/vector_cypher_rag_modified.py
+python -i genai-fundamentals/text2cypher_rag.py

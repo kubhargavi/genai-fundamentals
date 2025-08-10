@@ -1,0 +1,19 @@
+@kubhargavi ➜ /workspaces/genai-fundamentals (main) $ python -i genai-fundamentals/vector_rag.py
+The movie "Toy Story" features toys coming alive with its plot centered around a cowboy doll who is threatened by a new spaceman figure in a boy's room.
+>>> print("CONTEXT:", response.retriever_result.items)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'NoneType' object has no attribute 'items'
+>>> quit()
+@kubhargavi ➜ /workspaces/genai-fundamentals (main) $ python -i genai-fundamentals/vector_rag.py
+The movie "Toy Story" is about toys coming alive, where a cowboy doll is threatened and jealous when a new spaceman figure becomes the top toy in a boy's room.
+Traceback (most recent call last):
+  File "/workspaces/genai-fundamentals/genai-fundamentals/vector_rag.py", line 55, in <module>
+    print("CONTEXT:", response.retriever_result.items)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'items'
+>>> print
+<built-in function print>
+>>> print(response)
+answer='The movie "Toy Story" is about toys coming alive, where a cowboy doll is threatened and jealous when a new spaceman figure becomes the top toy in a boy\'s room.' retriever_result=None
+>>> 

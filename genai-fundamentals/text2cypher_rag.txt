@@ -1,0 +1,5 @@
+@kubhargavi ➜ /workspaces/genai-fundamentals (main) $ python -i genai-fundamentals/text2cypher_rag.py
+The movie Babe was released in 1995.
+CYPHER : MATCH (m:Movie) WHERE m.title = 'Babe' RETURN m.released
+CONTEXT: [RetrieverResultItem(content="<Record m.released='1995-08-04'>", metadata=None)]
+>>> 
